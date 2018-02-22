@@ -1,5 +1,5 @@
 function checkStrings(str1, str2) {
-	if ( (str1.length !== str2.length) || str1 === '' || str2 === '' ) return false;
+	if ( (str1.length !== str2.length) || (str1 === str2) || str1 === '' || str2 === '' ) return false;
 
 	let firstIndex = 0;
 	let secondStrLength = 0;
