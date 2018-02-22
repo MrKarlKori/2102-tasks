@@ -1,0 +1,12 @@
+body {
+	background-color: rgba(88,88,88,0.1);
+	padding: 25px 25%;
+}
+
+main {
+	background-color: #fff;
+	border: 1px solid gray;
+	display: flex;
+	flex-direction: column;
+	padding: 25px 20% 50px 20%;
+}
